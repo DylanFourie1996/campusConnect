@@ -4,11 +4,11 @@
 > *Built for hackathon competition - connecting students through study groups, resource sharing, and collaborative learning*
 
 
-## 🌟 Overview
+##  Overview
 
 Campus Connect is a full-stack web application designed to enhance student collaboration at universities. It provides a platform where students can form study groups, share resources, organize meetups, and engage in real-time collaboration sessions.
 
-### ✨ Key Features
+###  Key Features
 
 - **🏛️ Community System** - Join university-specific communities and study groups
 - **📚 Study Materials** - Upload, share, and discover educational resources
@@ -19,7 +19,7 @@ Campus Connect is a full-stack web application designed to enhance student colla
 - **📱 Responsive Design** - Optimized for desktop and mobile devices
 - **🤖 AI Content Generation** - Automatically generate study notes, summaries, and quizzes from uploaded materials
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18** with TypeScript
@@ -44,7 +44,7 @@ Campus Connect is a full-stack web application designed to enhance student colla
 - **Nodemon** for development
 - **CORS** for cross-origin requests
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 campus-connect/
@@ -126,7 +126,7 @@ campus-connect/
 └── .gitignore
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -238,13 +238,13 @@ npm run dev
 - `GET /api/materials/:id` - Get material details
 - `DELETE /api/materials/:id` - Delete study material
 
-## 🎯 Core Features
+##  Core Features
 
 ### 1. User Authentication & Profiles
 - Secure user registration and login
 - JWT-based authentication
 - Comprehensive student profiles with academic information
-- Profile customization and settings
+- Profile customisation and settings
 
 ### 2. Community System
 - University-specific communities
@@ -254,7 +254,7 @@ npm run dev
 
 ### 3. Study Materials Sharing
 - File upload and storage via Cloudinary
-- Categorized resource library
+- Categorised resource library
 - Search and filter functionality
 - Rating and review system
 
@@ -317,7 +317,7 @@ cd backend
 
 ### Environment Variables in Production
 - Update `VITE_API_URL` to point to your production backend
-- Configure MongoDB Atlas for database
+- Configure MongoDB Atlas for the database
 - Set up Cloudinary for file storage
 - Configure SMTP for email notifications
 
@@ -354,7 +354,7 @@ cd frontend
 npm run test
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -363,7 +363,7 @@ npm run test
 5. Push to the branch (`git push origin feature/amazing-feature`)
 6. Open a Pull Request
 
-## 📝 Known Issues & Solutions
+##  Known Issues & Solutions
 
 ### Common Development Issues
 
@@ -378,7 +378,7 @@ npm run test
    - Check database connections and model relationships
 
 3. **CORS Issues**
-   - Configure CORS properly in backend
+   - Configure CORS properly in the backend
    - Ensure frontend and backend URLs match environment variables
 
 
